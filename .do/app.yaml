@@ -1,0 +1,8 @@
+name: agenda-saude
+services:
+- environment_slug: ruby-on-rails
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: pedroCervi/agenda-saude
+  name: agenda-saude

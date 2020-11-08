@@ -62,6 +62,9 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  # Host from datalake
+  config.hosts << "agenda-saude-rqwl4.ondigitalocean.app"
+
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
 

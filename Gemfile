@@ -22,8 +22,6 @@ gem 'sass-rails', '>= 6' # Use SCSS for stylesheets
 gem 'cpf_cnpj'
 gem 'tod'
 
-gem 'newrelic_rpm'
-
 group :development, :test do
   gem 'byebug'
   gem 'pry-rails'

@@ -14,12 +14,6 @@ RUN bundle install --jobs 4
 
 COPY . .
 
-CMD ["bundle", "exec", "rails", "db:environment:set RAILS_ENV=development"]
-CMD ["bundle", "exec", "rails", "db:drop"]
-
-CMD ["bundle", "exec", "rails", "db:environment:set RAILS_ENV=production"]
-CMD ["bundle", "exec", "rails", "db:drop"]
-
 EXPOSE 3000
 
 CMD ["rails", "server", "-b", "0.0.0.0"]

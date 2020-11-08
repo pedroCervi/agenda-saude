@@ -16,15 +16,9 @@ COPY . .
 
 CMD ["bundle", "exec", "rails", "db:environment:set RAILS_ENV=development"]
 CMD ["bundle", "exec", "rails", "db:drop"]
-CMD ["bundle", "exec", "rails", "db:create"]
-CMD ["bundle", "exec", "rails", "db:migrate"]
-CMD ["bundle", "exec", "rails", "db:seed"]
 
 CMD ["bundle", "exec", "rails", "db:environment:set RAILS_ENV=production"]
 CMD ["bundle", "exec", "rails", "db:drop"]
-CMD ["bundle", "exec", "rails", "db:create"]
-CMD ["bundle", "exec", "rails", "db:migrate"]
-CMD ["bundle", "exec", "rails", "db:seed"]
 
 
 CMD ["rails", "server", "-b", "0.0.0.0"]

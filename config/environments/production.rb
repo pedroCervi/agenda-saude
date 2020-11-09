@@ -90,7 +90,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Host from datalake
-  config.hosts << "agenda-saude-rqwl4.ondigitalocean.app"
+  config.hosts << "agenda-saude-p8rpy.ondigitalocean.app"
 
   # Inserts middleware to perform automatic connection switching.
   # The `database_selector` hash is used to pass options to the DatabaseSelector

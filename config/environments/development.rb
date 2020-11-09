@@ -63,7 +63,7 @@ Rails.application.configure do
   config.assets.quiet = true
 
   # Host from datalake
-  config.hosts << "agenda-saude-rqwl4.ondigitalocean.app"
+  config.hosts << "agenda-saude-p8rpy.ondigitalocean.app"
 
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
